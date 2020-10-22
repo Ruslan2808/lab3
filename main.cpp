@@ -111,7 +111,7 @@ Array::Array(const Array& obj) {
 void Array::vvodKeyboard() {
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
-			cin >> mas[i][j];
+			mas[i][j] = getInt();
 		}
 	}
 }
